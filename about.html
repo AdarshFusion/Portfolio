@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsh | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Dark Mode Toggle -->
+    <button id="darkToggle" class="btn btn-outline-light dark-toggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Floating nav Bar -->
+    <div class="nav-bar">
+        <a href="education.html" data-text="Education"><i class="fa-solid fa-user-graduate"></i></a>
+        <a href="projects.html" data-text="Projects"><i class="fa-solid fa-diagram-project"></i></a>
+        <a href="certificates.html" data-text="Certificates"><i class="fa-solid fa-certificate"></i></a>
+        <!-- <a href="about.html" data-text="About Me"><i class="fa-solid fa-user"></i></a> -->
+        <a href="contact.html" data-text="Contact Me"><i class="fa-solid fa-address-book"></i></a>
+    </div>
+
+
+    <!-- Hero Section -->
+    <header>
+        <div class="container text-center" data-aos="fade-up">
+            <img src="me.png" width="200" class="rounded-circle shadow mb-3" alt="Profile Photo" data-aos="zoom-in">
+            <h1 data-aos="fade-up">About Me</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Get to know more about my journey, passion, and skills</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-md-6 mb-4" data-aos="fade-right">
+                    <h2>Hello, I’m <span class="text-primary">Adarsh Chauhan</span></h2>
+                    <p>
+                        I’m a passionate developer who loves turning ideas into reality through code.
+                        My main focus is <strong>web development</strong> with Django, Bootstrap, and modern JavaScript.
+                        I enjoy learning new technologies, solving problems, and continuously improving my skills.
+                    </p>
+                    <p>
+                        Beyond coding, I am curious about UI/UX, open-source contributions,
+                        and creating digital products that make a real impact.
+                    </p>
+                    <a href="adarshCv.pdf" class="btn btn-primary mt-2" download>📄 Download Resume</a>
+                </div>
+
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="card shadow-lg border-0">
+                        <div class="card-body">
+                            <h5 class="mb-3">Quick Facts</h5>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt text-primary me-2"></i>Based in India</li>
+                                <li><i class="fas fa-code text-success me-2"></i> Full-stack Developer (Python + Django)
+                                </li>
+                                <li><i class="fas fa-graduation-cap text-warning me-2"></i>Diploma(CSE)</li>
+                                <li><i class="fas fa-laptop-code text-info me-2"></i> Interested in Build WebSite
+                                </li>
+                                <li><i class="fas fa-music text-danger me-2"></i> Hobbies: Music, Travel
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="py-5 bg-light">
+        <div class="container" data-aos="fade-up">
+            <h2 class="text-center mb-4">My Skills</h2>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <h6>Python / Django</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <h6>JavaScript</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <h6>Bootstrap / CSS</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <h6>Database (MySQL / SQLite)</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" style="width: 75%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="mt-3">&copy; 2025 Adarsh Chauhan | Built with ❤️</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/adarsh-ashok-chauhan/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/adarshfusion" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="chauhanadarsh432@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({ duration: 800, once: true });</script>
+    <script src="script.js"></script>
+</body>
+
+</html>

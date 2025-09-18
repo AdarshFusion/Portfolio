@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsh | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Dark Mode Toggle -->
+    <button id="darkToggle" class="btn btn-outline-light dark-toggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Floating nav Bar -->
+    <div class="nav-bar">
+        <a href="education.html" data-text="Education"><i class="fa-solid fa-user-graduate"></i></a>
+        <a href="projects.html" data-text="Projects"><i class="fa-solid fa-diagram-project"></i></a>
+        <a href="certificates.html" data-text="Certificates"><i class="fa-solid fa-certificate"></i></a>
+        <a href="about.html" data-text="About Me"><i class="fa-solid fa-user"></i></a>
+        <a href="contact.html" data-text="Contact Me"><i class="fa-solid fa-address-book"></i></a>
+    </div>
+
+    <!-- Hero Section -->
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Left Side (Image/Illustration) -->
+                <div class="col-md-6 text-center" data-aos="fade-right">
+                    <img src="me.png" width="300" alt="Profile" class="img-fluid rounded-circle shadow-lg">
+                </div>
+
+                <!-- Right Side (Text + Resume) -->
+                <div class="col-md-6 text-md-start text-center mt-4 mt-md-0" data-aos="fade-left">
+                    <h1>Adarsh Chauhan</h1>
+                    <h4><span id="typing-text" class="fs-5"></span></h4>
+                    <div><a href="adarshCv.pdf" class="btn btn-light btn-lg mt-3 shadow" download>
+                            📄 Download Resume
+                        </a></div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- About -->
+    <section class="py-5" id="about">
+        <div class="container" data-aos="fade-up">
+            <div class="row align-items-center">
+
+                <!-- Paragraph Column -->
+                <div class="col-md-8 text-left order-2 order-md-1" data-aos="fade-right">
+                    <p class="text-left">
+                        Hi, I’m Adarsh Chauhan, a passionate web developer and tech enthusiast with a knack for creating
+                        engaging and user-friendly web experiences. I specialize in frontend and backend development,
+                        working with
+                        technologies like HTML, CSS, JavaScript, Bootstrap, Django, and Python.
+
+                        I love transforming ideas into responsive, interactive websites that are not only visually
+                        appealing
+                        but also perform seamlessly across devices. My approach combines creativity with clean code,
+                        ensuring
+                        that every project I work on is both functional and aesthetically pleasing.
+
+                        Beyond coding, I enjoy learning new technologies, exploring modern design trends, and taking on
+                        challenges
+                        that push my skills further. When I’m not building websites, you’ll find me experimenting with
+                        side
+                        projects,
+                        reading about the latest in tech, or sharing insights with the developer community.
+
+                        Let’s connect and create something amazing together!
+                    </p>
+                </div>
+
+                <!-- Heading Column -->
+                <div class="col-md-4 text-md-start text-center mt-4 mt-md-0 order-1 order-md-2" data-aos="fade-left">
+                    <h2 class="text-center mb-4 p-3 rounded-circle shadow-lg">&#128100; About Me</h2>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+            <div class="row">
+                <div class="col-md-6 mb-3" data-aos="fade-right">
+                    <h6>Python</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3" data-aos="fade-left">
+                    <h6>Django</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3" data-aos="fade-right">
+                    <h6>JavaScript</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3" data-aos="fade-left">
+                    <h6>Bootstrap</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" style="width: 75%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">A web app built with Django and Bootstrap.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">A JavaScript game with interactive UI.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card mb-4">
+                        <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">Portfolio website with animations and dark mode.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with Contact -->
+    <footer>
+        <div class="container">
+            <h5>Contact Me</h5>
+            <form class="mx-auto" style="max-width:600px;">
+                <input type="text" class="form-control" placeholder="Your Name">
+                <input type="email" class="form-control" placeholder="Your Email">
+                <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                <button class="btn btn-primary w-100 mt-2">Send Message</button>
+            </form>
+            <p class="mt-4">&copy; 2025 Adarsh Chauhan | Built with ❤️</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/adarsh-ashok-chauhan/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/adarshfusion" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="chauhanadarsh432@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
